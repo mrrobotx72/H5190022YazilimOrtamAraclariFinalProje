@@ -13,8 +13,9 @@ public class ProductRestApi {
     }
     
     @PostMapping("/add")
-    public List<Product> add(@RequestBody Product product){
-    	return ProductStore.addProduct(product);
+    public Product add(@RequestBody Product product){
+    	ProductStore.addProduct(product);
+    	return product;
     }
     
     @PostMapping("/delete")

@@ -9,7 +9,7 @@ public final class ProductStore {
         PRODUCTS.add( new Product("Playstation"  ,"5") );
         PRODUCTS.add( new Product("Xbox"      ,"4") );
         PRODUCTS.add( new Product("Nintendo"  ,"3") );
-        PRODUCTS.add( new Product("Atarik" ,"2") );
+        PRODUCTS.add( new Product("Atari" ,"2") );
     }
     
     private ProductStore() {
